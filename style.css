@@ -35,7 +35,7 @@ body{
     color: aliceblue;
 }
 
-.col-1{
+.top{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,14 +45,14 @@ body{
     margin-bottom: 35px;
 }
 
-.col-1 i{
+.top i{
     font-size: 30px;
     background-color: #0F172A;
     padding: 10px;
     border-radius: 5px;
 }
 
-.col-1 p{
+.top p{
     color: var(--gray-01, #F8FAFC);
     text-align: center;
     font-family: IBM Plex Sans;
@@ -63,3 +63,94 @@ body{
     margin-top: 15px;
 }
 
+.btn-1{
+    display: flex;
+    background-color: #0F172A;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-1 i{
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-1 p{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.btn-1 .ph-arrow-right{
+    margin-left: 200px;
+}
+
+.btn-2{
+    display: flex;
+    background-color: #0F172A;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-2 i{
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-2 p{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.btn-2 .ph-arrow-right{
+    margin-left: 235px;
+}
+
+.btn-3{
+    display: flex;
+    background-color: #0F172A;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-3 i{
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-3 p{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.btn-3 .ph-arrow-right{
+    margin-left: 200px;
+}
+
+.btn-4{
+    display: flex;
+    background-color: #0F172A;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-4 i{
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-4 p{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.btn-4 .ph-arrow-right{
+    margin-left: 200px;
+}
