@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+@font-face {
+    font-family: 'LucideIcons';
+    src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
+  }
+
+.container{
+    display: flex;
+    margin: auto;
+    margin-top: 49px;
+    width: 850px;
+    height: 550px;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 32px;
+    border: 1px solid var(--gray-04, #334155);
+    background: rgba(2, 6, 23, 0.80);
+}
+
+.content{
+    color: aliceblue;
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 35px;
+}
+
+.col-1 i{
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.col-1 p{
+    color: var(--gray-01, #F8FAFC);
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
