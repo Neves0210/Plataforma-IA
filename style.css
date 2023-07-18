@@ -42,6 +42,39 @@ body{
     background-color: #334155;
 }
 
+.text-bar {
+    display: flex;
+    align-items: center;
+    color: #E2E8F0;
+    font-family: IBM Plex Sans;
+  }
+  
+.text-bar input {
+    width: 710px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #0F172A;
+    color: #E2E8F0;
+}
+  
+.text-bar button {
+    height: 40px;
+    width: 40px;
+    padding: 9px 6px;
+    background-color: #0F172A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-bar i{
+    font-size: 25px;
+}
+
 .top{
     display: flex;
     flex-direction: column;
@@ -70,11 +103,22 @@ body{
     margin-top: 15px;
 }
 
+.buttons button{
+    color: #E2E8F0;
+    background-color: #0F172A;
+    height: 51px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 210px;
+}
+
 .btn-1{
     display: flex;
     background-color: #0F172A;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: 1px solid #334155;
 }
 
 .btn-1 i{
@@ -89,15 +133,12 @@ body{
     margin-left: 15px;
 }
 
-.btn-1 .ph-arrow-right{
-    margin-left: 200px;
-}
-
 .btn-2{
     display: flex;
     background-color: #0F172A;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: 1px solid #334155;
 }
 
 .btn-2 i{
@@ -110,17 +151,16 @@ body{
 .btn-2 p{
     margin-top: 14px;
     margin-left: 15px;
+    margin-right: 34px;
 }
 
-.btn-2 .ph-arrow-right{
-    margin-left: 235px;
-}
 
 .btn-3{
     display: flex;
     background-color: #0F172A;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: 1px solid #334155;
 }
 
 .btn-3 i{
@@ -135,15 +175,12 @@ body{
     margin-left: 15px;
 }
 
-.btn-3 .ph-arrow-right{
-    margin-left: 200px;
-}
-
 .btn-4{
     display: flex;
     background-color: #0F172A;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: 1px solid #334155;
 }
 
 .btn-4 i{
@@ -156,8 +193,4 @@ body{
 .btn-4 p{
     margin-top: 14px;
     margin-left: 15px;
-}
-
-.btn-4 .ph-arrow-right{
-    margin-left: 200px;
 }
