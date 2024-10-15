@@ -1,42 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-image: url(assets/background.png);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
-@font-face {
-    font-family: 'LucideIcons';
-    src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
-  }
 
-.container{
+.container {
     display: flex;
-    margin: auto;
-    margin-top: 49px;
-    width: 850px;
-    height: 550px;
-    padding: 60px;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    width: 850px;
+    height: 600px;
+    padding: 60px;
+    gap: 30px;
     border-radius: 32px;
-    border: 1px solid var(--gray-04, #334155);
-    background: rgba(2, 6, 23, 0.80);
+    border: 1px solid #334155;
+    background: rgba(2, 6, 23, 0.8);
 }
 
-.content{
+.content {
     color: aliceblue;
 }
-.divider{
-    content: "";
-    display: block;
+
+.divider {
     width: 100%;
     height: 1px;
     background-color: #334155;
@@ -46,24 +42,22 @@ body{
     display: flex;
     align-items: center;
     color: #E2E8F0;
-    font-family: IBM Plex Sans;
-  }
-  
+}
+
 .text-bar input {
     width: 710px;
     height: 40px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-right: 10px;
     background-color: #0F172A;
     color: #E2E8F0;
+    margin-right: 10px;
 }
-  
+
 .text-bar button {
-    height: 40px;
     width: 40px;
-    padding: 9px 6px;
+    height: 40px;
     background-color: #0F172A;
     color: #fff;
     border: none;
@@ -71,126 +65,62 @@ body{
     cursor: pointer;
 }
 
-.text-bar i{
+.text-bar i {
     font-size: 25px;
 }
 
-.top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.top {
     text-align: center;
-    margin-top: -30px;
     margin-bottom: 35px;
 }
 
-.top i{
+.top i {
     font-size: 30px;
     background-color: #0F172A;
     padding: 10px;
     border-radius: 5px;
 }
 
-.top p{
-    color: var(--gray-01, #F8FAFC);
-    text-align: center;
-    font-family: IBM Plex Sans;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.top p {
     margin-top: 15px;
+    color: #F8FAFC;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-.buttons button{
-    color: #E2E8F0;
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
     background-color: #0F172A;
+    border-radius: 5px;
+    border: 1px solid #334155;
+    padding: 10px;
+}
+
+.btn i {
+    font-size: 30px;
+    background-color: #0F172A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn p {
+    margin-left: 15px;
+    color: #E2E8F0;
+}
+
+.buttons button {
+    margin-left: auto;
+    background-color: #0F172A;
+    color: #E2E8F0;
     height: 51px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 210px;
-}
-
-.btn-1{
-    display: flex;
-    background-color: #0F172A;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #334155;
-}
-
-.btn-1 i{
-    font-size: 30px;
-    background-color: #0F172A;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.btn-1 p{
-    margin-top: 14px;
-    margin-left: 15px;
-}
-
-.btn-2{
-    display: flex;
-    background-color: #0F172A;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #334155;
-}
-
-.btn-2 i{
-    font-size: 30px;
-    background-color: #0F172A;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.btn-2 p{
-    margin-top: 14px;
-    margin-left: 15px;
-    margin-right: 34px;
-}
-
-
-.btn-3{
-    display: flex;
-    background-color: #0F172A;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #334155;
-}
-
-.btn-3 i{
-    font-size: 30px;
-    background-color: #0F172A;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.btn-3 p{
-    margin-top: 14px;
-    margin-left: 15px;
-}
-
-.btn-4{
-    display: flex;
-    background-color: #0F172A;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #334155;
-}
-
-.btn-4 i{
-    font-size: 30px;
-    background-color: #0F172A;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.btn-4 p{
-    margin-top: 14px;
-    margin-left: 15px;
 }
